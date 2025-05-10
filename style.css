@@ -1,13 +1,68 @@
+:root {
+  --gameswap-dark-bg: #12191c;
+  --gameswap-light-dark-bg: hsl(198, 22%, 23%);
+  --gameswap-blue: #219ebc;
+  --gameswap-light-blue: #8ecae6;
+  --gameswap-primary: #ffb703;
+  --gameswap-primary-2: #fb8500;
+  --gameswap-hover: #ff3e03;
+}
+
+/* CLASSES PARA NOSSA BRAND
+Abaixo estão as classes/variáveis que utilizamos para estilizar a nossa brand, o nome do nosso projeto e o background da nossa home. */
+
+.bg-brand{
+  background-color: var(--gameswap-dark-bg);
+}
+
+.bg-light-brand{
+  background-color: var(--gameswap-light-dark-bg);
+}
+
+.btn-primary{
+  background-color: var(--gameswap-primary);
+  border-color: var(--gameswap-primary);
+}
+
+.btn-outline-primary{
+  background-color: var(--gameswap-blue);
+  border-color: var(--gameswap-light-blue);
+  color: #ffffff;
+}
+
+.btn-primary:hover{
+  background-color: var(--gameswap-hover);
+  border-color: var(--gameswap-hover);
+  color: #ffffff;
+}
+.btn-outline-primary:hover{
+  background-color: var(--gameswap-hover);
+  border-color: var(--gameswap-hover);
+  color: #ffffff;
+}
+
+
+
+
 * {
     font-family: "Electrolize", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.header h1 {
+.gameSwap-logo {
     font-family: "Tektur", sans-serif;
-    font-weight: 400;
+    font-weight: 800;
 }
+
+.glass-bg {
+  background: #12191c80;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); 
+  border: 1px solid rgba(47, 47, 47, 0.15);
+  
+}
+
 
 /* Transicao Cards */
 
